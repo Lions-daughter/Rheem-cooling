@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+</head>
+<style>
+    *{
+        margin: 0;
+    }
+    .d1 {
+    background-color: rgb(131, 41, 0);
+    height: 90px;
+    padding-left: 5px;
+    position: fixed;
+    display: flex;
+    width: 100%;
+}
+.d11{
+    margin-bottom: 20px;
+}
+
+.logo {
+
+    
+    height: 160px;
+    margin-left: 10px;
+width: 200px;
+
+}
+
+ul li {
+    list-style-type: none;
+    margin-top: 30px;
+    display: inline;
+    margin-left: 40px;
+    color: rgb(223, 88, 9);
+    font-weight: bolder;
+}
+
+ul li a {
+    text-decoration: none;
+    list-style-type: none;
+    margin-top: 10%;
+    color: rgb(233, 91, 9);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+
+
+
+.d3 {
+    margin-top: 2%;
+    margin-left: 15%;
+}
+.d3 ul li a:hover{
+    color: rgb(255, 255, 255);
+    font-size: 15px;
+    border-bottom: 2px solid #fffafa;
+}
+.f1{
+        background-image: url(images/bg22.jpg);
+        width: 100%;
+        height: 40vh;
+        background-size: cover;
+    
+    }
+    h2{
+        color: rgb(87, 37, 3);
+        padding-top: 10%;
+        margin-left: 37%;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: 70px;
+    }
+    p{
+        margin-left: 38%;
+        color: rgb(104, 58, 6);
+        font-size: 20px;
+        background-color: white;
+        width: 15%;
+    }
+    form{
+        border-radius: 5px solid brown;
+        background-color: rgb(131, 74, 0);
+        margin-top: 20px;
+        width: 28%;
+        margin-left: 15%;
+margin-left: 35%;
+border-radius: 20px;
+padding-top: 1%;
+padding-bottom: 50px;
+
+    }
+    input{
+        width: 65%;
+        padding-bottom: 3%;
+        margin-left: 15%;
+        margin-top: 5%;
+        border-radius: 8px;
+        height: 10%;
+        padding: 15px;
+       
+    }
+    h6{
+        margin-left: 14%;
+       font-size: 20px;
+       color: white;
+    }
+    button{
+        margin-left: 40%;
+        font-size: 20px;
+        margin-top: 30px;
+        background-color: #faf9f8;
+        border-radius: 5px;
+        padding: 10px;
+    }
+    input :focus{
+        background-color: rgb(197, 95, 0);
+    }
+    button a{
+        color: rgb(66, 32, 0);
+        text-decoration: none;
+    }
+     button :focus{
+        background-color: rgb(196, 105, 2);
+    }
+    .d55{
+    height: 40px;
+    width: 6%;
+   
+    margin-top: 38px;
+    margin-left: 12%;
+    
+}
+.d55 a {
+    height: 400px;
+    color: white;
+    padding: 10px;
+    
+}
+.d55 a:hover{
+    border-bottom: 4px solid white;
+}
+@font-face{
+    font-family: my;
+    src: url(plante/Plante.ttf);
+}
+h3{
+font-family: my;
+color: bisque;
+font-size: 30px;
+margin-left: 30px;
+margin-top: 30px;
+}
+</style>
+<body>
+    <div class="d1">
+        <div class="d11">
+            <h3> sweets.bakers</h3>
+        </div>
+        
+
+        <div class="d3">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li>|</li>
+                <li><a href="menu.html">Menu</a></li>
+                <li>|</li>
+                <li> <a href="chef.html">Chef</a></li>
+                <li>|</li>
+                 <li><a href="loc.html">Our locations</a></li>
+                 <li>|</li>
+                <li><a href="Contact us.html">Contact us</a></li>
+            </ul>
+        </div>
+        <div class="d55"> 
+            <a href=""><i class="fa-solid fa-cart-shopping"></i></a>
+            <a href=""><i class="fa-solid fa-magnifying-glass"></i></a>
+           
+        </div>    
+       
+    </div>
+    <footer class="f1"><h2>Contact us</h2><br><p>Please for other query contact here.</p>
+    <form>
+       <h6>first name</h6><input type="text"  placeholder=" first name " required="true" ><br><br>
+       <h6>last name</h6> <input type="text"  placeholder=" last name "  required="true"><br><br>
+       <h6>Email Address</h6> <input type="text"  placeholder=" Enter your email "  required="true"><br><br>
+       <h6>Comment or Message</h6> <input  height="30%"    type="text"  ><br><br>
+       <button onclick="alert(adsd)"><a href="index.html">Submit</a></button>
+    </form></footer>
+    <script>
+        alert("contact us and enjoy");
+    </script>
+    <script>
+        AOS.init();
+      </script>
+</body>
+</html>
